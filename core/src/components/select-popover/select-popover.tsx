@@ -52,12 +52,6 @@ export class SelectPopover implements ComponentInterface {
               <ion-label>
                 {option.text}
               </ion-label>
-              <ion-radio
-                checked={option.checked}
-                value={option.value}
-                disabled={option.disabled}
-              >
-              </ion-radio>
             </ion-item>
           )}
         </ion-radio-group>
